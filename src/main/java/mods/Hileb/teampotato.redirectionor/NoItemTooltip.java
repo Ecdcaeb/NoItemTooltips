@@ -15,7 +15,7 @@ import java.util.Locale;
 import java.util.ListIterator;
 
 // All entrypoint classes must implement Runnable.
-public class NoItemTooltip implements nilloader.api.ClassTransformer, Runnable {
+public class NoItemTooltip implements Runnable {
 
     public static final NilLogger LOGGER = NilLogger.get("NoItemTooltip");
 
